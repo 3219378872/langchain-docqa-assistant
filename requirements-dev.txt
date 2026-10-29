@@ -1,0 +1,4 @@
+# 开发依赖：测试和代码检查
+-r requirements.txt
+pytest>=9.0
+ruff>=0.14

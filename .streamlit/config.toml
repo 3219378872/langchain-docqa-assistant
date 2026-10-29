@@ -1,0 +1,6 @@
+[browser]
+gatherUsageStats = false
+
+[client]
+# 隐藏右上角的 Deploy 等开发者菜单
+toolbarMode = "minimal"

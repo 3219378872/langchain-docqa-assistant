@@ -1,0 +1,9 @@
+# 运行依赖（版本范围遵循语义化版本：允许兼容升级，避开下一个主版本）
+langchain-core>=1.7,<2
+langchain-openai>=1.7,<2
+langchain-text-splitters>=1.1,<2
+jieba>=0.42.1
+pypdf>=6.0,<7
+docx2txt>=0.9
+streamlit>=1.66,<2
+python-dotenv>=1.2,<2
