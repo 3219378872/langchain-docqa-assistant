@@ -8,6 +8,9 @@ filterwarnings = [
     # 3.12+ 是 SyntaxWarning），与本项目代码无关
     "ignore:invalid escape sequence:DeprecationWarning",
     "ignore:invalid escape sequence:SyntaxWarning",
+    # 环境里装有 setuptools 时（如 GitHub 托管的 Python 3.11），jieba 会导入已弃用的 pkg_resources；
+    # 不同 setuptools 版本发出的警告类别不同（DeprecationWarning / UserWarning），这里按消息统一忽略
+    "ignore:pkg_resources is deprecated as an API",
 ]
 
 [tool.ruff]
